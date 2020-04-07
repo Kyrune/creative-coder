@@ -42,8 +42,8 @@ html {
 }
 
 body {
-    background: var(--clr-light);
-    color: var(--clr-dark);
+    background: var(--clr-dark);
+    color: var(--clr-light);
     margin: 0;
     font-family: var(--ff-primary);
     font-size: var(--fs-body);
@@ -139,8 +139,8 @@ header {
 
 .nav {
     position: fixed;
-    background: var(--clr-dark);
-    color: var(--clr-light);
+    background: var(--clr-light);
+    color: var(--clr-dark);
     top: 0;
     bottom: 0;
     left: 0;
@@ -298,7 +298,7 @@ header {
 /* My services section */
 
 .my-services {
-    background-color: var(--clr-dark);
+    background-color: var(--clr-light);
     background-image: url(../img/service-bg.png);
     background-size: cover;
     background-blend-mode: multiply;
@@ -307,7 +307,7 @@ header {
 }
 
 .section__title--services {
-    color: var(--clr-accent);
+    color: var(--clr-dark);
     position: relative;
 }
 
@@ -317,7 +317,7 @@ header {
     width: 2em;
     height: 1px;
     margin: 0.5em auto 1em;
-    background: var(--clr-light);
+    background: var(--clr-dark);
     opacity: 0.25;
 }
 
@@ -328,6 +328,7 @@ header {
 .service {
     max-width: 500px;
     margin: 0 auto;
+    color: var(--clr-dark);
 }
 
 @media (min-width: 800px) {
@@ -397,9 +398,13 @@ header {
 /* Portfolio section */
 
 .my-work {
-    background-color: var(--clr-dark);
-    color: var(--clr-light);
+    background-color: var(--clr-light);
+    color: var(--clr-dark);
     text-align: center;
+}
+
+.section__subtitle {
+    margin-bottom: 1em;
 }
 
 .section__subtitle--work {
@@ -487,6 +492,11 @@ header {
     padding: 0 2em 2em;
     max-width: 1000px;
     margin: 0 auto;
+}
+
+.portfolio-item-individual-img {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .portfolio-item-individual p {
