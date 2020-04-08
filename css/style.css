@@ -7,8 +7,8 @@
 /* Custom properties */
 
 :root {
-    --ff-primary: 'Source Sans Pro', sans-serif;
-    --ff-secondary: 'Source Code Pro', monospace;
+    /* --ff-primary: 'Source Sans Pro', sans-serif; */
+    --ff-primary: 'Roboto', sans-serif;
 
     --fw-reg: 300;
     --fw-bold: 900;
@@ -165,7 +165,7 @@ header {
 .nav__link {
     color: inherit;
     font-weight: var(--fw-bold);
-    font-size: var(--fs-h3);
+    font-size: var(--fs-h2);
     text-decoration: none;
 }
 
