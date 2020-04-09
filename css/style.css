@@ -504,7 +504,7 @@ header {
     color: var(--clr-light);
     text-decoration: none;
     margin-top: 1em;
-    font-size: var(--fs-h3);
+    font-size: 20px;
     border: 3px solid var(--clr-accent);
     text-align: center;
 }
