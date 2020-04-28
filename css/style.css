@@ -469,6 +469,11 @@ header {
     text-decoration: none; 
 }
 
+.foot-par {
+    font-size: var(--fs-body);
+    margin-bottom: -1.5em;
+}
+
 .footer__link {
     font-weight: var(--fw-bold);
 }
