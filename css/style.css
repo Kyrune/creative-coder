@@ -513,12 +513,22 @@ header {
 }
 
 .github-link {
+    display: inline-block;
     color: var(--clr-light);
     text-decoration: none;
-    margin-top: 1em;
     font-size: 20px;
     border: 3px solid var(--clr-accent);
     text-align: center;
+    margin-top: 1em;
+    padding: .5em;
+}
+
+@media (max-width: 599px) {
+    .github-link {
+        margin: auto;
+        width: 100%;
+        margin-top: 1em;
+    }
 }
 
 .github-link:hover {
@@ -540,6 +550,8 @@ header {
 .team-link:hover {
     text-shadow: 0px 0px 10px var(--clr-accent);
 }
+
+/* Button to top of page */
 
 #topBtn {
     display: none;
