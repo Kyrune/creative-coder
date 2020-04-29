@@ -503,6 +503,11 @@ header {
     padding: .5em;
 }
 
+.footer-rights {
+    color: rgb(109, 109, 109);
+    font-size: 1rem;
+}
+
 /* Portfolio individual items */
 
 .portfolio-item-individual {
