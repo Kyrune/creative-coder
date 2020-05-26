@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DevMaria Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        <!-- Google font -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <!-- Top anchor -->
+        <button onclick="topFunction()" id="topBtn" title="Go to Top"><i class="fas fa-chevron-up"></i></button>
+
+        <!-- Navigation -->
+        <header>
+            <!-- Logo image -->
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/logo.png" alt="">
+                </a>
+            </div>
+            <!-- Hamburger -->
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <!-- Navigation -->
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="index.html#about" class="nav__link">About Me</a></li>
+                    <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!-- Introduction -->
+        <section class="intro">
+            <h1 class="section__title section__title--intro">
+                <strong>ID Card JS</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">A Coding Exercise</p>
+            <img src="img/id-card/id-card-example2.png" alt="id card example" class="intro__img" />
+            <a class="github-link" href="https://kyrune.github.io/id-card-practice/" target="_blank">Live Website</a><br />
+            <a class="github-link" href="https://github.com/Kyrune/id-card-practice" target="_blank">GitHub Repository</a>
+        </section>
+        
+        <div class="portfolio-item-individual">
+            <p>
+                Completed as a coding exercise for the Bethel Tech bootcamp, this project uses JavaScript to grab 
+                the input values and display them on the ID card.
+                Below is a screenshot of the exercise. To see it in action, click on the "Live Website" button above! 
+                Input whatever info you want and watch the magic happen. Refresh the page to clear the inputs.
+            </p>
+            <img class="portfolio-item-individual-img" src="img/id-card/id-card.png" alt="id card with input fields" />
+            <p>
+                Tools and languages used:<br />
+                JavaScript | HTML | CSS | Git | GitHub
+            </p>
+        </div>
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <a href="mailto:jn-01@centurytel.net" class="footer__link">jn-01@centurytel.net</a>
+            <p class="foot-par">Don't forget to check out my social links!</p>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/Kyrune" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.instagram.com/runewysper/" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/maria-ziemer-780178156/" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+            </ul>
+            <p class="footer-rights">© Maria Ziemer. All rights reserved.</p>
+        </footer>
+        
+        <!-- JavaScript import -->
+        <script src="js/index.js"></script>
+        
+    </body>
+</html>
