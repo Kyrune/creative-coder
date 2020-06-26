@@ -191,7 +191,6 @@ header {
     padding: .5em;
     background: transparent;
     border: 0;
-    /* height: 40px; */
     cursor: pointer;
     position: absolute;
     right: 1em;
@@ -304,6 +303,44 @@ header {
 @media (max-width: 800px) {
     .section__subtitle--intro {
         font-size: var(--fs-h3);
+    }
+}
+
+/* Navbar on larger screens */
+@media (min-width: 1000px) {
+    .nav, .hamburger, .nav-toggle {
+        display: none;
+    }
+
+    .navL {
+        Margin-right: 2rem;
+    }
+
+    .nav__listL {
+        display: flex;
+        flex-direction: row;
+        font-size: var(--fs-h3);
+        list-style: none;
+    }
+
+    .nav__linkL {
+        color: var(--clr-accent);
+        text-decoration: none;
+    }
+
+    .nav__linkL:hover {
+        text-shadow: 0 0 3px var(--clr-accent), 0 0 5px var(--clr-accent);
+    }
+
+    .nav__itemL {
+        margin-left: 2.5rem;
+    }
+}
+
+/* Hide large-screen navbar at smaller screen sizes */
+@media (max-width: 1000px) {
+    .navL {
+        display: none;
     }
 }
 
